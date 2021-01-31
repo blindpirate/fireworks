@@ -67,7 +67,7 @@ export default class Things {
       new Particle({
         isRocket: true,
         position: {
-          x: random(0, this.cw),
+          x: this.cw / 2,
           y: this.ch
         }
       })
